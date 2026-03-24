@@ -5,12 +5,9 @@
     "menu content"
     "footer footer";
   grid-template-columns: .5fr 3fr;
-  gap: 0px;
-  padding: 0px;
 }
 .container div {
   background-color: white;
-  padding: 0px;
 }
 .container div.header {
   background-color: lightgray;
