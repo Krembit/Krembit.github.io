@@ -19,7 +19,9 @@
 }
 .container div.menu {
 	background-color: #557ab5;
-	color: white;
+	a {
+		color: white;
+	}
   grid-area: menu;
 }
 .container div.content {
