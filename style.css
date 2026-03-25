@@ -5,8 +5,8 @@
     "menu content"
     "footer footer";
   grid-template-columns: .5fr 3fr;
-	padding: 5px
-	gap: 5px
+	padding: 5px;
+	gap: 5px;
 }
 .container div {
   background-color: white;
