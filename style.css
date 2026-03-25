@@ -5,10 +5,13 @@
     "menu content"
     "footer footer";
   grid-template-columns: .5fr 3fr;
-	gap: 5px;
+	gap: 3px;
+	background-color: white;
+	padding: 5px;
 }
 .container div {
   background-color: white;
+	padding: 10px;
 }
 .container div.header {
   background-color: lightgray;
@@ -16,14 +19,11 @@
   text-align: center;
 }
 .container div.menu {
-  background-color: blue;
   grid-area: menu;
 }
 .container div.content {
-  background-color: white;
   grid-area: content;
 }
 .container div.footer {
-  background-color: lightgray;
   grid-area: footer; 
 }
