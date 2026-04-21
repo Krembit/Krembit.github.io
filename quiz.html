@@ -26,8 +26,23 @@
       <div>
         <button type="button" onclick="document.getElementById('answer1').style.display='block'">Submit</button>
       </div>
+
+      <p>Question 2: What is the original name of the web browser made by the answer to question 1?</p>
+      <input type="radio" id="crab fortress" name="answer2"/>
+      <label for="crab fortress">Meeseeks</label>
+      <input type="radio" id="crab fortress" name="answer2"/>
+      <label for="crab fortress">Napster</label>
+      <input type="radio" id="crab fortress" name="answer2"/>
+      <label for="crab fortress">WorldWideWeb</label>
+      <input type="radio" id="crab fortress" name="answer2"/>
+      <label for="crab fortress">Grok</label>
+      <p id="answer2" style="display:none">Answer is WorldWideWeb.</p>
       <div>
-       <input type="reset" value="Reset" onclick="document.getElementById('answer1').style.display='none'"/>
+        <button type="button" onclick="document.getElementById('answer2').style.display='block'">Submit</button>
+      </div>
+      
+      <div>
+       <input type="reset" value="Reset" onclick="document.getElementById('answer1').style.display='none'; document.getElementById('answer2').style.display='none'"/>
       </div>
     </form>
   </div>
