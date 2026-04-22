@@ -7,12 +7,19 @@
 </head>
 <body>
 
+  <!-- Contains the whole page -->
   <div class="container">
-  <div class="header"><h1>Web Browsers</h1></div>
+  <!-- Contains the header -->
+  <div class="header"><h1>Quiz</h1></div>
+  <!-- Contains the whole menu -->
   <div class="menu"><a href="index.html">Home</a><br><a href="urlbar.html">URL Bar</a><br><a href="searchengine.html">Search Engines</a><br><a href="keytopics.html">Key Topics</a><br><a href="references.html">References</a>
-    <br><a href="about.html">About</a><br><a href=#>Quiz</a><a href="resources.html">Resources</a></div>
+    <br><a href="about.html">About</a><br><a href="quiz.html">Quiz</a><a href="resources.html">Resources</a></div>
+  <!-- Contains the content -->
   <div class="content">
+
+    <!-- Wrapped in a form so the reset button knows what to operate on -->
     <form>
+      <!--Radio buttons for answer selection -->
       <p>Question 1: What is the name of the person who invented the World Wide Web?</p>
       <input type="radio" id="bust station" name="answer1"/>
       <label for="bust station">Bim-Lerners Tee</label>
@@ -22,8 +29,10 @@
       <label for="bust station">Margaret Thatcher</label>
       <input type="radio" id="bust station" name="answer1"/>
       <label for="bust station">Tim Berners-Lee</label>
+      <!--Doesn't appear until submit button is pressed -->
       <p id="answer1" style="display:none">Answer is Tim Berners-Lee.</p>
       <div>
+        <!-- Submit button makes the question answer appear -->
         <button type="button" onclick="document.getElementById('answer1').style.display='block'">Submit</button>
       </div>
 
@@ -70,6 +79,7 @@
       </div>
       
       <div>
+        <!-- Reset button causes all elements in the form (the whole quiz) to return to its startings state -->
        <input type="reset" value="Reset" onclick="document.getElementById('answer1').style.display='none'; document.getElementById('answer2').style.display='none'; document.getElementById('answer3').style.display='none'; document.getElementById('answer4').style.display='none'"/>
       </div>
     </form>
