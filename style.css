@@ -1,3 +1,4 @@
+/* Styles the majority of the content on the screen */
 .container {
 	display: grid;
   grid-template-areas:
@@ -12,11 +13,13 @@
   background-color: white;
 	padding: 10px;
 }
+/* Sets color to a nice orange-red and centers the text */
 .container div.header {
   background-color: #eb4034;
   grid-area: header;
   text-align: center;
 }
+/* Background color is an earthy blue, text is white and font size is large to aid readability */
 .container div.menu {
 	background-color: #557ab5;
 	a {
