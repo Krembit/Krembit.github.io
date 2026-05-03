@@ -18,6 +18,7 @@
   background-color: #eb4034;
   grid-area: header;
   text-align: center;
+	font-size: 1vw;
 }
 /* Background color is an earthy blue, text is white and font size is large to aid readability */
 .container div.menu {
@@ -33,4 +34,8 @@
 }
 .container div.footer {
   grid-area: footer; 
+}
+
+h2 {
+	font-size: .5vw;
 }
